@@ -8,7 +8,7 @@
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__html"><h1 id="algorithms--credit-card-verifier">Algorithms : Credit Card Verifier</h1>
+  <div class="stackedit__html"><h1 id="algorithms--credit-card-verifier">Algorithms : Credit Card Verifier (Luhn's Algorithm)</h1>
 <h2 id="goal">Goal</h2>
 <p>Most payment card numbers are <strong>16 digits</strong> long. <strong>The leftmost 6 digits</strong> represent a unique identification number for the bank who has issued the card. <strong>The next 2 digits</strong> determine the type of the card (e.g., debit, credit, gift). <strong>Digits 9 to 15</strong> are the serial number of the card, and the last digit is used as a control digit to verify whether the card number is valid.</p>
 <p>Hence, if somebody enters the card number incorrectly, there is a high chance that a payment software can easily determine it.</p>
