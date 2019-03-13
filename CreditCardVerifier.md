@@ -23,46 +23,16 @@
 <h2 id="test-cases">Test Cases</h2>
 <p><strong>CASE 1 :</strong></p>
 <p>Credit Card Number : <code>4556 7375 8689 9855</code></p>
-<ol>
-<li></li>
-</ol>
-<p>5*2 9*2 8*2 8*2 7*2 7*2 5*2 4*2</p>
+<p><strong>1-</strong><br>
+5*2 9*2 8*2 8*2 7*2 7*2 5*2 4*2</p>
 <p>10 18 16 16 14 14 10 8</p>
 <p>1 9 7 7 5 5 1 8</p>
-<ol start="2">
-<li></li>
-</ol>
-<p>1+9+7+7+5+5+1+8=43</p>
-<ol start="3">
-<li></li>
-</ol>
-<p>5+8+9+6+5+3+6+5=47</p>
-<ol start="4">
-<li></li>
-</ol>
-<p>43+47=90</p>
-<p>The number is valid</p>
+<p><strong>2-</strong> 1+9+7+7+5+5+1+8=43</p>
+<p><strong>3-</strong> 5+8+9+6+5+3+6+5=47</p>
+<p><strong>4-</strong> 43+47=90</p>
+<p><strong>5-</strong> The number is valid</p>
 <p><strong>CASE 2 :</strong></p>
-<p>Credit Card Number : <code>4024 0071 0902 2143</code></p>
-<ol>
-<li></li>
-</ol>
-<p>4*2 2*2 0*2 0*2 7*2 0*2 2*2 4*2</p>
-<p>8 4 0 0 14 0 4 8</p>
-<p>8 4 0 0 5 0 4 8</p>
-<ol start="2">
-<li></li>
-</ol>
-<p>8+4+0+0+5+0+4+8=29</p>
-<ol start="3">
-<li></li>
-</ol>
-<p>3+1+2+9+1+0+4+0=20</p>
-<ol start="4">
-<li></li>
-</ol>
-<p>20+29=49</p>
-<p>Therefore the number not valid.</p>
+<p>Invalid Credit Card Number : <code>4024 0071 0902 2143</code></p>
 <h2 id="task">Task</h2>
 <p>Your task is to read several card numbers from the input, and determine whether each one is a valid card number or not.</p>
 </div>
